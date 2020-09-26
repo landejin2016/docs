@@ -1,0 +1,10 @@
+.index {
+    height: 100%;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121212;
+}

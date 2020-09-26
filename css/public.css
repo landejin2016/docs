@@ -1,0 +1,88 @@
+/* 初始化 */
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* 布局 */
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+
+/* 主题色 */
+
+.theme-box {
+    background: #121212;
+    color: #ffffff;
+}
+
+.theme-box:hover {
+    color: #ffffff;
+}
+
+
+/* 边框 */
+
+.border {
+    border: #f4f4f4 solid 1px;
+}
+
+.border-top {
+    border-top: #f4f4f4 solid 1px;
+}
+
+.border-left {
+    border-left: #f4f4f4 solid 1px;
+}
+
+.border-right {
+    border-right: #f4f4f4 solid 1px;
+}
+
+.border-bottom {
+    border-bottom: #f4f4f4 solid 1px;
+}
+
+.padding {
+    padding: 15px;
+}
+
+
+/* 图片处理 */
+
+.list-cover {
+    max-height: 180px;
+    object-fit: cover;
+}
