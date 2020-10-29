@@ -35,7 +35,7 @@ window.$docsify = {
 
 ---
 ## loading和文档标题
-### loading：
+**loading**
 docsify是使用vue构建的，我们可以像处理vue的首屏白屏一样，在 #app 中加入loading的特效，这个效果会在页面进入的时候展示：
 ```html
 <div id="app">
@@ -44,7 +44,7 @@ docsify是使用vue构建的，我们可以像处理vue的首屏白屏一样，�
 </div>
 ```
 
-### name
+**name**
 你可以通过name配置项设置文档的标题，这个标题会显示再侧边栏的顶部，所以需要开启侧边导航栏才会看到：
 
 ```js
@@ -63,7 +63,7 @@ window.$docsify = {
 ## 导航栏
 设置导航栏有两种方式：1、设置标签；2、设置配置文件
 
-### 设置导航标签
+**设置导航标签**
 ```html
 <!-- index.html -->
 
@@ -75,7 +75,7 @@ window.$docsify = {
   <div id="app"></div>
 </body>
 ```
-### 设置配置文件
+**设置配置文件**
 1. 首先在配置里，开启导航栏：
 ```js
 window.$docsify = {
@@ -113,14 +113,14 @@ window.$docsify = {
 ## 启用封面
 封面是指，进入文档首页时，显示在顶部的开屏页面，通过配置 `covePage` 以及 `_coverpage.md` 实现
 
-### 打开配置
+**打开配置**
 ```javascript
 window.$docsify = {
     coverpage: true
 }
 ```
 
-### 增加 _covepage.md文件
+**增加 _covepage.md文件**
 
 ```markdown
 
@@ -153,10 +153,10 @@ window.$docsify = {
 搜索功能需要通过插件引入和配置才能实现，除了搜索还有其他好用得插件，可以看这里：
 ` https://docsify.js.org/#/zh-cn/plugins `
 
-### 引入插件js
+**引入插件js**
 ` <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> `
 
-### 启用配置
+**启用配置**
 ```javascript
 window.$docsify = {
     search: {
@@ -171,7 +171,7 @@ window.$docsify = {
 
 ## 错误页和主题设置
 
-### 错误页
+**错误页**
 可以自定义404页面，当访问文档链接不存在时，会显示该页面。
 
 在配置文件指定 404 文件的路径：
@@ -187,7 +187,7 @@ window.$docsify = {
 # 页面被吃了
 ```
 
-### 主题设置
+**主题设置**
 通过不同的主题css引入，即可更改文档主题：
 
 ```html

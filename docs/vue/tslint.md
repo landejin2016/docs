@@ -1,6 +1,7 @@
 # tslint 配置
 
-```javascript
+我设置的默认规则如下：后面会列举常见的会报错的地方
+```Json
 {
   "defaultSeverity": "warning",
   "extends": [
@@ -54,4 +55,141 @@
     "semicolon": [true, "always"] // 语句强制使用分号
   }
 }
+```
+
+# 常见语法报错：
+
+1. `()` 前后要加空格
+```js
+// 错误
+if(flag){
+    // ...
+}
+
+// 正确
+if (flag) {
+    // ...
+}
+```
+
+2.禁止空块
+```js
+// 错误
+if (flag) {
+
+}
+
+// 正确
+if (flag) {
+    // dosomething
+}
+```
+
+3. 文件最后一行要为空格
+
+4. 优先使用单引号
+```js
+// 错误
+const name = "张三";
+
+// 正确
+const name = '张三';
+```
+
+5. 语句后面需要接分号
+```js
+// 错误
+const name = '张三'
+const cat = {
+    name: '咪咪'
+}
+
+// 正确
+const name = '张三';
+const cat = {
+    name: '咪咪'
+};
+```
+
+6. 禁止 SB 判断
+```js
+// 错误
+if (status === true) {
+    // dosomething
+}
+
+// 正确
+if (status) {
+    // dosomething
+}
+```
+
+7. 函数参数之间需要空格
+```js
+// 错误
+function add(arg1,arg2) {
+    // dosomething
+}
+
+// 正确
+function add(arg1, arg2) {
+    // dosomething
+}
+```
+
+8. 使用 `===`
+```js
+// 错误
+if (status == 1) {
+    // dosomething
+}
+
+// 正确
+if (status === 1) {
+    // dosomething
+}
+```
+
+9. 优先使用const、禁止使用var
+```javascript
+// 错误
+let a = 1;
+var b = 2;
+
+let c = a + b;
+/* 代码结束 */
+
+// 正确
+const a = 1;
+const b = 2;
+
+const c = a + b;
+/* 代码结束 */
+```
+
+10. switch必须带default
+```javascript
+// 错误
+switch (state) {
+    case 1:
+        break;
+}
+
+// 正确
+switch (state) {
+    case 1:
+        break;
+      default: 
+}
+```
+
+11、使用字符串模板，不使用 `+` 拼接
+```javascript
+// 错误
+const name = '张三';
+const live = name + '在吃饭';
+
+// 正确
+const name = '张三';
+const live = `${name}在吃饭`;
 ```
