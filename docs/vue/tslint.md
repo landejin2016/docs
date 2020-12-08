@@ -183,7 +183,7 @@ switch (state) {
 }
 ```
 
-11、使用字符串模板，不使用 `+` 拼接
+11.使用字符串模板，不使用 `+` 拼接
 ```javascript
 // 错误
 const name = '张三';
@@ -192,4 +192,17 @@ const live = name + '在吃饭';
 // 正确
 const name = '张三';
 const live = `${name}在吃饭`;
+```
+
+12.尽可能使用箭头函数，不使用一般函数
+```javascript
+// 错误
+setTimeout(function() {
+    // ...
+}, 3000)
+
+// 正确
+setTimeout(() => {
+    // ...
+}, 3000)
 ```
