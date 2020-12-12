@@ -18,4 +18,10 @@ vs_code markdown编辑工具。
 
 ---
 ## **Chinese (Simplified) Language Pack for Visual Studio Code**
+
 vs_code中文包，安装重新加载即可使用
+
+---
+## any-rule
+
+丰富的正则表达式，拿来就能用
