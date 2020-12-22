@@ -1,5 +1,16 @@
 # Vue SPA项目开发
 
+* [计算属性](vue/computed)
+* [监听](vue/watch)
+* [事件](vue/event)
+* [过滤器](vue/filters)
+* [过渡和动画](vue/transition)
+* [插件](vue/plugins)
+* [自定义指令](vue/directive)
+* [渲染函数](vue/render)
+* [混入](vue/mixin)
+* [keep-alive](vue/keep)
+* [组件](vue/components)
 * [TypeScript接入](vue/vue-class-component "Vue + Typescript")
 * [我的tsLint配置](vue/tslint "Vue + Typescript")
 * [移动端vant框架接入](vue/vant "Vue + Vant")
