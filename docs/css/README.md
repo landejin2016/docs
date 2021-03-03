@@ -1,5 +1,6 @@
 # css 重点
 
+-   [css 变量](css/var)
 -   [css 盒模型](css/box)
 -   [css 单位](css/px)
 -   [css 文本样式](css/text)

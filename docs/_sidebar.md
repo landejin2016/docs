@@ -14,6 +14,7 @@
     -   [h5 socket](html/socket.md)
     -   [h5 画布](html/canvas.md)
 -   [css](css/)
+	-   [css 变量](css/var)
     -   [css 盒模型](css/box)
     -   [css 单位](css/px)
     -   [css 文本样式](css/text)
